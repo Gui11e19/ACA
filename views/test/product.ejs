@@ -1,0 +1,69 @@
+<%-include("../template/head") %> 
+<%-include("../template/navbar") %> 
+
+  <body>
+
+    
+    <div class="container mt-5 mb-5">
+  
+    
+        
+    <div class="card">
+        <div class="row">
+            <aside class="col-sm-5  border-right">
+                <div class="container">
+    
+                    <div id='el'></div>
+            </div>
+    
+
+      <div class=" Prod resT"> <a href="#"><img class="prodIMG" src="<%= img_url%>">
+      </a></div>
+   
+    
+  
+            </aside>
+            <aside class="col-sm-7">
+    <article class="card-body p-5 resT">
+        <h3 class="title mb-3"><%= product.name %></h3>
+    
+    <p class="price-detail-wrap"> 
+        <span class="price h3 text-warning"> 
+            <span class="currency">US $</span><span class="num"><%= product.price %></span>
+        </span> 
+        
+    </p> <!-- price-detail-wrap .// -->
+    <dl class="item-property">
+      <dt>Description</dt>
+      <dd><p>
+			<%= product.description %>
+
+	  </p></dd>
+    </dl>
+    <dl class="param param-feature">
+      <dt>Model#</dt>
+      <dd>12345611</dd>
+    </dl>  <!-- item-property-hor .// -->
+    <dl class="param param-feature">
+      <dt>Color</dt>
+      <dd>Blanco</dd>
+    </dl>  <!-- item-property-hor .// -->
+    <dl class="param param-feature">
+      
+    </dl>  <!-- item-property-hor .// -->
+    
+
+    </article> <!-- card-body.// -->
+            </aside> <!-- col.// -->
+        </div> <!-- row.// -->
+    </div> <!-- card.// -->
+    
+    
+    </div>
+    <!--container.//-->
+
+    <%-include("../template/footer") %> 
+
+  </body>
+  
+</html>

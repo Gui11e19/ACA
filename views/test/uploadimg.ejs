@@ -1,0 +1,26 @@
+<%-include("../template/head") %> 
+<%-include("template/navbar") %> 
+  <body>
+
+    <div class="container-fluid">
+
+      <h1><%= title %></h1>
+     
+    </div>
+
+    <div class="border border-dark rounded mx-auto p-5 position-absolute absolute-center">
+      <form action="/test/s3up" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+    <label for="img">Example file input</label>
+    <input type="file" name="img" class="form-control-file" id="img">
+ 	 </div>     
+
+  <button type="submit" class="btn btn-primary" name="submit" >Submit</button>
+      </form>
+      
+    </div>
+    
+  <%-include("../template/footer") %> 
+  </body>
+
+</html>

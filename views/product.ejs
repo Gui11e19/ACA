@@ -1,0 +1,87 @@
+<%-include("template/head") %> 
+<%-include("template/navbar") %> 
+
+  <body>
+
+    <div class="container mt-5 mb-5">
+  
+    
+        
+    <div class="card">
+        <div class="row">
+            <aside class="col-sm-5 border-right">
+                <div class="container">
+    
+                    <div id='el'></div>
+            </div>
+    <article class="gallery-wrap">
+<div class="img-big-wrap">
+      <div> <a href="#"><img src="https://refriworld.com.pe/wp-content/uploads/2019/08/compresor74.jpg"></a></div>
+    </div> 
+    <div class="img-small-wrap">
+        <div class="item-gallery"> <img src="https://sv.epaenlinea.com/pub/media/catalog/product/cache/485916028b2380daa9c4b3254177a59f/2/3/2370005_1.jpg"> </div>
+        <div class="item-gallery"> <img src="https://sv.epaenlinea.com/pub/media/catalog/product/cache/485916028b2380daa9c4b3254177a59f/2/3/2370005_1.jpg"> </div>
+        <div class="item-gallery"> <img src="https://sv.epaenlinea.com/pub/media/catalog/product/cache/485916028b2380daa9c4b3254177a59f/2/3/2370005_1.jpg"> </div>
+        <div class="item-gallery"> <img src="https://sv.epaenlinea.com/pub/media/catalog/product/cache/485916028b2380daa9c4b3254177a59f/2/3/2370005_1.jpg"> </div>
+      </div> 
+    </article> <!-- gallery-wrap .end// -->
+            </aside>
+            <aside class="col-sm-7">
+    <article class="card-body p-5">
+        <h3 class="title mb-3">Aire Acondicionado</h3>
+    
+    <p class="price-detail-wrap"> 
+        <span class="price h3 text-warning"> 
+            <span class="currency">US $</span><span class="num">1299</span>
+        </span> 
+        
+    </p> <!-- price-detail-wrap .// -->
+    <dl class="item-property">
+      <dt>Description</dt>
+      <dd><p>La diferencia entre tener una factura mensual de $200 a una de $70 con la instalacion de mas de 4 equipos
+           de aire acondicionado es de solamente 25 dolares una vez en la vida, nosotros le daremos asesoría para
+           instalar equipos que tengan un bajo consumo eléctrico, sabemos que la energía eléctrica es un gasto 
+           importante para usted y queremos hacerlo ahorrar</p></dd>
+    </dl>
+    <dl class="param param-feature">
+      <dt>Model#</dt>
+      <dd>12345611</dd>
+    </dl>  <!-- item-property-hor .// -->
+    <dl class="param param-feature">
+      <dt>Color</dt>
+      <dd>Blanco</dd>
+    </dl>  <!-- item-property-hor .// -->
+    <dl class="param param-feature">
+      
+    </dl>  <!-- item-property-hor .// -->
+    
+
+    </article> <!-- card-body.// -->
+            </aside> <!-- col.// -->
+        </div> <!-- row.// -->
+    </div> <!-- card.// -->
+    
+    
+    </div>
+    <!--container.//-->
+
+    <%-include("template/footer") %> 
+
+  </body>
+  <script>
+    var urls = [
+        'https://sv.epaenlinea.com/pub/media/catalog/product/cache/485916028b2380daa9c4b3254177a59f/2/3/2370005_1.jpg',
+        'https://source.unsplash.com/jQ2_DWnIX7Y/600x350',
+        'https://source.unsplash.com/u4gwRbr2_j0/600x350'
+    ];
+    var options = {
+        //thumbLeft:true,
+        //thumbRight:true,
+        //thumbHide:true,
+        //width:300,
+        //height:500,
+    };
+    $('#el').zoomy(urls,options);
+ </script>
+
+</html>

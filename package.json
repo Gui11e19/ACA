@@ -1,0 +1,35 @@
+{
+  "name": "air-xpress",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.855.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.6.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.10.0",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.11.17",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "NODE_ENV=dev ./node_modules/nodemon/bin/nodemon.js ./bin/www   app.js ",
+    "win-devserver": "set NODE_ENV=dev && nodemon ./bin/www app.js"
+  }
+}

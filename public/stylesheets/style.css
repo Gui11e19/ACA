@@ -1,0 +1,400 @@
+body {
+  padding: 50px;
+  padding-top: 0%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin-bottom: 0%;
+}
+
+
+a.nav-link{
+  font-size: 130%;
+}
+
+div.col-sm h3{
+  text-align: center;
+}
+
+.gallery-wrap .img-big-wrap img {
+  height: 450px;
+  width: auto;
+  display: inline-block;
+  cursor: zoom-in;
+}
+
+
+.gallery-wrap .img-small-wrap .item-gallery {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ddd;
+  margin: 7px 2px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.gallery-wrap .img-small-wrap {
+  text-align: center;
+}
+.gallery-wrap .img-small-wrap img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: zoom-in;
+}
+
+
+/* index */
+@media only screen and (min-width: 640px) {
+  nav.navbar div.container a{
+    font-size: 2em;
+  }
+
+  button.navbar-toggler{
+    font-size: 3rem;
+  }
+
+  nav.navbar div.container{
+    font-size: 1.9em;
+  }
+
+  h1.text-center{
+    font-size: 5em;
+  }
+
+  h1.productos{
+    padding-top: 1em;
+    font-size: 5em;
+  }
+
+  
+
+  h3.c{
+    font-size: 4.5em;
+  }
+
+  div.col-sm{
+    padding: 1em 6em;
+  }
+
+  footer.footer{
+    display: flex;
+    font-size: 140%;
+  }
+
+  h1.nosotros{
+    font-size: 5em;
+    padding-top: 1em;
+  }
+  h3.nosotros{
+    font-size: 4em;
+  }
+  .info{
+    font-size: 3.5em;
+    padding: .5em;
+  }
+
+  div.col{
+    padding-bottom: -10em;
+    text-align: justify;
+  }
+
+  ul.list{
+    padding-left: 2em;
+  }
+
+  footer.footer{
+    display: flex;
+    font-size: 140%;
+  }
+
+  div.links{
+    padding-top: 1rem;
+  }
+
+  .iconify{
+    font-size: 2.8em;
+    padding-bottom: 0.06em;
+    
+  }
+
+  h5.text-uppercase{
+    font-size: 1.6em;
+    padding-left: 2em;
+
+  }
+
+  /* producto moviles*/
+  div.col-md{
+    padding-left: 5em;
+  }
+
+  h5.card-title{
+    font-size: 4.3em;
+  }
+  
+  span.price{
+    font-size: 3.85em;
+  }
+
+  div.nav-item a{
+    font-size: 3.2em;
+  }
+
+  img.imgProd{
+    width: 100%;
+  }
+
+  img.logo{
+    width: 10em;
+    
+  }
+
+  div.contRedes{
+    padding-top: 5em;
+  }
+  
+  h3.contactanos{
+    padding-right: 1em;
+    font-size: 2.8em;
+  }
+  
+}
+@media only screen and (min-width: 500px) {
+  img.imgProd{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  nav.navbar div.container a{
+    font-size: 2em;
+  }
+
+  button.navbar-toggler{
+    font-size: 3rem;
+  }
+
+  nav.navbar div.container{
+    font-size: 1.9em;
+  }
+
+  h1.text-center{
+    font-size: 5em;
+  }
+
+  h1.productos{
+    padding-top: 1em;
+    font-size: 5em;
+  }
+
+  
+
+  h3.c{
+    font-size: 4.5em;
+  }
+
+  div.col-sm{
+    padding: 1em 6em;
+  }
+
+  footer.footer{
+    display: flex;
+    font-size: 140%;
+  }
+
+  h1.nosotros{
+    font-size: 5em;
+    padding-top: 1em;
+  }
+  h3.nosotros{
+    font-size: 4em;
+  }
+  .info{
+    font-size: 3.5em;
+    padding: .5em;
+  }
+
+  div.col{
+    padding-bottom: -10em;
+    text-align: justify;
+  }
+
+  ul.list{
+    padding-left: 2em;
+  }
+
+  footer.footer{
+    display: flex;
+    font-size: 140%;
+  }
+
+  div.links{
+    padding-top: 1rem;
+  }
+
+  .iconify{
+    font-size: 2.8em;
+    padding-bottom: 0.06em;
+    
+  }
+
+  h5.text-uppercase{
+    font-size: 1.6em;
+    padding-left: 2em;
+  }
+
+  /* producto moviles*/
+  div.col-md{
+    padding-left: 5em;
+  }
+
+  h5.card-title{
+    font-size: 4.3em;
+  }
+  
+  span.price{
+    font-size: 3.85em;
+  }
+
+  img.imgProd{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  nav.navbar div.container a{
+    font-size: 100%;
+  }
+
+
+  nav.navbar div.container{
+    font-size: 1.9em;
+  }
+
+  h1.text-center{
+    font-size: 4em;
+  }
+
+  h1.productos{
+    padding-top: 1em;
+    font-size: 3.5em;
+  }
+
+  
+
+  h3.c{
+    font-size: 3.5em;
+  }
+
+  div.col-sm{
+    padding: 1em 1em;
+  }
+
+  footer.footer{
+    display: flex;
+    font-size: 140%;
+  }
+
+  h1.nosotros{
+    font-size: 3em;
+    padding-top: 1em;
+  }
+  h3.nosotros{
+    font-size: 2.5em;
+  }
+  .info{
+    font-size: 1.5em;
+    padding: .5em;
+  }
+
+  div.col{
+    padding-bottom: -10em;
+    text-align: justify;
+  }
+
+  ul.list{
+    padding-left: 2em;
+  }
+
+  footer.footer{
+    display: flex;
+    font-size: 140%;
+  }
+
+  div.links{
+    padding-top: 1rem;
+    
+  }
+
+  div.contProductos{
+    grid-auto-columns: minmax(50%);
+  }
+
+  
+  div.nav-item a.nav-link{
+    font-size: 2.8em;
+  }
+
+  h5.card-title{
+    font-size: 1.5em;
+  }
+  
+  span.price{
+    font-size: 1.5em;
+  }
+
+  div.card{
+    padding-top: -10em;
+    
+  }
+
+
+}
+@media only screen and (min-width: 1440px) {
+  
+  
+  div.valores{
+    padding-right: 40rem;
+  }
+  h5.card-title{
+    font-size: 1.5em;
+  }
+  
+  span.price{
+    font-size: 1.5em;
+  }
+
+
+}
+@media only screen and (min-width: 1500px) {
+  div.valores{
+    padding-right: 40rem;
+  }
+}
+
+
+@media only screen and (min-width: 1800px) {
+
+  div.valores{
+    padding-right: 40rem;
+  }
+
+}
+
+/*  Productos  */
+
+.prodIMG{
+  width: 100%;
+  padding-top: 5em;
+}
+
+div.cardProd{
+  padding: 3em;
+  width: 100%;
+}
+
+div.imgCard{
+  width: 100%;
+
+}

@@ -1,0 +1,15 @@
+<%-include("template/head") %> 
+<%-include("template/navbar") %> 
+  <body>
+	  <h1><%= title %></h1>
+	<form action="/auth/register" method="post" accept-charset="utf-8">
+			<input type="text" name="username" id="username" value="">					
+			<input type="password" name="password" id="password" value="">
+			<input type="submit" name="submit" id="submit" value="">
+	</form>
+  
+  <%-include("template/footer") %> 
+
+
+  </body>
+</html>
