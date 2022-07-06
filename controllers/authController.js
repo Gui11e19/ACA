@@ -6,7 +6,7 @@ AuthController.register = function (req, res, next) {
   if (req.isAuthenticated()) {
     return res.redirect("/");
   }
-  //checks if username already exixsts
+  //checks if username already exists
   User.findOne({ username: req.body.username }, function (err, user) {
     if (err) {
       return res.redirect("/");
