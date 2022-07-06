@@ -13,7 +13,7 @@ passport.deserializeUser((id, done) => {
     });
 });
 
-// Local Strategy
+// Estrategia local
 passport.use(
     new LocalStrategy({ usernameField: "username" }, (username, password, done) => {
         User.findOne({ username:username })
@@ -21,7 +21,7 @@ passport.use(
                 if (!user) {
 					return done(null,false,{message: "Invalid Username"});
                 } else {
-                    // Match password
+                    // Comparar contraseña
                     bcrypt.compare(password, user.password, (err, isMatch) => {
                         if (err) throw err;
 
@@ -33,6 +33,7 @@ passport.use(
                     });
                 }
             })
+            // Error
             .catch(err => {
                 return done(null, false, { message: err });
             });
