@@ -6,10 +6,10 @@ function getUserInfo(isLogged, username) {
 		username : username
 
 	};
-
+	// Retorna la informacion de loggeo
 	return	userInfo;
 
 }
 
-
+// Exportamos la funcion getUserInfo
 module.exports = getUserInfo;
