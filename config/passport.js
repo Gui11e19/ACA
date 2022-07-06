@@ -39,4 +39,5 @@ passport.use(
     })
 );
 
+//Exportando modulo passport
 module.exports = passport;
