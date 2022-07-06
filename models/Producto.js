@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose"); // se requiere de moongose
 const Schema = mongoose.Schema;
 //Schema for products, keeps all their descriptions
 const ProductSchema = new Schema({
@@ -23,4 +23,5 @@ const ProductSchema = new Schema({
   },
 });
 
+// Exportando el schema de productos
 module.exports = mongoose.model("product", ProductSchema);
