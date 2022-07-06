@@ -20,8 +20,11 @@ var flash = require('connect-flash');
 var app = express();
 
 //connect to database
-const URI = "mongodb+srv://Victor:Victor@cluster0.o6cti.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+//const URI = "mongodb+srv://Victor:Victor@cluster0.o6cti.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 //const URI = process.env.URI;
+
+const URI = "mongodb://localhost:27017";
+
 
 mongoose.connect(URI,{ 
     useNewUrlParser: true,
@@ -66,7 +69,7 @@ app.use(setUserInfo);
 
 console.log(process.env.NODE_ENV);
 
-if(true){
+if(process.env.NODE_ENV){
 
 	console.log("HOLIWS");
 	var testRouter  =  require('./routes/test.js');
