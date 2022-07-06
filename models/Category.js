@@ -12,5 +12,5 @@ const CategorySchema = new Schema({
     required: true,
   },
 });
-
+// Exportando el schema de categoria
 module.exports = mongoose.model("category", CategorySchema);
