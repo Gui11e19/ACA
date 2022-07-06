@@ -9,8 +9,9 @@ function createPageInfo(page, itemsPerPage, totalItems) {
     previousPage: page - 1,
     lastPage: Math.ceil(totalItems / itemsPerPage),
   };
-
+  // Retorna la informacion de la paginacion
   return pageInfo;
 }
 
+// Exportamos la funcion
 module.exports = createPageInfo;
